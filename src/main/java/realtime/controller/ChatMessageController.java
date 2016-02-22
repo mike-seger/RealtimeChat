@@ -28,7 +28,7 @@ public class ChatMessageController {
     @Autowired
     private ChatMessageRepository chatMessageRepository;
 
-    @RequestMapping("/login")
+    @RequestMapping("/")
     public String login() {
         return "login";
     }
